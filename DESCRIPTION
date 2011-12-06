@@ -1,0 +1,23 @@
+Version: 0.1-1
+Package: RAmazonDBREST
+Title: REST-based Interface to Amazon's SimpleDB
+Description: This is an R package that provides an 
+ interface to (some of) Amazon's SimpleDB engine
+ to create, populate, access and generally manipulate
+ databases.
+Note: This initial version is mostly functional but
+  is released in the hope that those who want to use
+  it will provide suggestions and offer code to improve its
+  functionality.
+  We will probably implement a similar interface but using SOAP.
+  This is more structured and avoids a lot of URL escaping issues.
+  Also, we will add higher-level R-like facilities to this 
+  that layer on top of the basic interface and possibly
+  include R type information and attributes to amazon tables
+  and also allows us to treat remote tables virtually as
+  regular data frames.
+Author: Duncan Temple Lang
+Maintainer: Duncan Temple Lang <duncan@r-project.org>
+License: BSD
+Imports: XML, RCurl
+System: Python

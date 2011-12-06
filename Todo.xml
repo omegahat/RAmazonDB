@@ -1,0 +1,29 @@
+<topics>
+<topic>
+
+<item>
+batch put attributes.
+</item>
+
+<item>
+add meta data from R data types
+<br/>
+e.g. numbers
+</item>
+
+<item>
+select function.
+</item>
+
+<item>
+work with numbers and dates
+</item>
+
+<item>
+identifying and reading base64 encoded responses.
+<br/>
+RCurl will help us do this.
+</item>
+
+</topic>
+</topics>

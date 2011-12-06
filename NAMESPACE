@@ -1,0 +1,13 @@
+import(XML)
+import(RCurl)
+
+export(createDomain, listDomains, deleteDomain, domainMetadata)
+export(existsDomain) 
+
+export(getAttributes, deleteAttributes, putAttributes)
+
+export(makeDataFrameTable)
+
+export(select)
+
+

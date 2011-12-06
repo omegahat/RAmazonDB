@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<link rel="stylesheet" href="../OmegaTech.css">
+<title>@PKG_NAME@</title>
+</head>
+
+<body>
+<h1>@PKG_NAME@</h1>
+<p align=right><a href="@TAR_FILE@">@TAR_FILE@</a> (@DATE@)</p>
+
+<p>
+This package provides an interface to Amazon's Simple DB API.
+It allows one to
+<ul>
+  <li> create new domains
+  <li> delete domains
+  <li> list domains
+  <li> get information about a domain
+
+  <li> add data items to a domain
+  <li> retrieve the value of items from a domain
+  <li> delete items from a domain
+
+  <li> perform <b>SELECT</b> queries on a domain
+      
+</ul>
+
+At present, the interface is a relatively low-level mapping from the
+REST operations to R functions.  The <b>select()</b> function provides
+slightly higher-level functionality in that it turns the results in an
+R data frame.  Similarly, <b>putAttributes()</b> uploads R vector or
+list objects.
+But there is a significant opportunity to add  higher-level
+functionality and
+
+<ul>
+  <li> treat the remote tables as R data frames
+  <li> work with values other than strings
+</ul>
+
+</p>
+<p>
+This package is related in some senses to the
+<a href="../RAmazonS3">RAmazonS3</a> package.
+</p>
+
+
+<hr>
+<address><a href="http://www.stat.ucdavis.edu/~duncan">Duncan Temple Lang</a>
+<a href=mailto:duncan@wald.ucdavis.edu>&lt;duncan@wald.ucdavis.edu&gt;</a></address>
+<!-- hhmts start -->
+Last modified: Sun Sep 20 21:03:30 PDT 2009
+<!-- hhmts end -->
+</body> </html>

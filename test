@@ -1,0 +1,11 @@
+AWSAccessKeyId=AKIAJIIXP355JMT6HQEA&Action=ListDomains&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2009-09-20T18%3A54%3A18&Version=2007-11-07
+signature = tyqkI82yR1I3Uh2zGypzZ36IgZo39QZ3C5ydhq52ptw=
+
+
+
+GET
+sdb.amazonaws.com:443
+/
+AWSAccessKeyId=AKIAJIIXP355JMT6HQEA&Action=ListDomains&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2009-09-20T19%3A28%3A26&Version=2007-11-07
+
+u1Y1tPQuunbWzlfK1HmAfq0f6PecL1LKaDsaFlDvKVc=
